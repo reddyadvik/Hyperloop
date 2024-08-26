@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperloop Model Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Hyperloop Model Showcase</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="section-content">
+                <h2>About the Hyperloop Model</h2>
+                <p>Welcome to the Hyperloop Model Showcase. This scale model represents a futuristic transportation system designed to revolutionize travel. Built to a scale of 20:2000 in centimeters, our model captures the essence of hyperloop technology with remarkable detail.</p>
+                <div class="image-gallery">
+                    <img src="your-hyperloop-image.jpg" alt="Hyperloop Model">
+                    <!-- Add more images if needed -->
+                </div>
+                <p>Our model showcases the potential of the hyperloop system in providing fast, efficient, and sustainable travel solutions. Dive into the details below to explore more about its functionality and design.</p>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section id="calculator" class="section calculator">
+            <div class="section-content">
+                <h2>Speed Calculator</h2>
+                <p>Use this calculator to convert the scale speed of sound into the real speed of sound in kilometers per hour. Enter the scale speed below and get accurate results instantly.</p>
+                <div class="calculator-box">
+                    <label for="scaleSpeed">Scale speed of sound (feet/second):</label>
+                    <input type="number" id="scaleSpeed" placeholder="Enter speed" step="0.01">
+                    <button onclick="calculateRealSpeed()">Calculate</button>
+                    <p id="result" class="result"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="section-content">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to learn more about our hyperloop model, feel free to reach out. We would be happy to assist you!</p>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Hyperloop Model Showcase. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
